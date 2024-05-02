@@ -47,11 +47,6 @@
         font-weight: 600;
       }
     </style>
-    <script>
-        document.addEventListener("DOMContentLoaded", function(event) {
-            console.log("DOM content loaded");
-        });
-    </script>
     <script src="https://code.jquery.com/jquery-1.11.2.min.js"></script>
     <!-- Start VWO Async SmartCode -->
     <script type="text/javascript">
@@ -231,14 +226,6 @@ f=false,w=window,d=document,v=d.querySelector('#vwoCode'),cK='_vwo_'+account_id+
     <p>
       <button onclick="myFunction()">Generate Link</button>
       <input id="input" />
-      <script>
-        function myFunction() {
-          document.getElementById("dynamicLink").innerHTML = "GENERATED LINK";
-          document.getElementById("dynamicLink").href =
-            document.getElementById("input").value;
-          //   location.href=document.getElementById("input").value;
-        }
-      </script>
     </p>
 	<script>
         let spaCount = 1;
